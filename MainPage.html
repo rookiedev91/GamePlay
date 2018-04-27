@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link rel = "stylesheet" href= "/home/petty22/Documents/GamePlay/styles.css">
+    <title>Seep Application</title>
+    <script src = "/home/petty22/Documents/GamePlay/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/home/petty22/Documents/GamePlay/Main.js" ></script>
+  </head>
+  <body>
+    <div class="banner">
+      <h1>
+      THE SEEP GAME
+      </h1>
+    </div>
+    <button id="start" onclick="game();">START</button>
+    <div class = "first">
+      <div class = "Score A">
+          <h5>SCORE</h5>
+          <h4>TEAM A</h4>
+          <h3>50</h3>
+      </div>
+      <div class = "one">
+        <img src="/home/petty22/Documents/GamePlay/images/male.svg" class="player">
+        <div class = buttons>
+          <h2>Player 1</h2>
+          <button onclick="sortCards(player1);">SORT</button>
+        </div>
+        <div class ="un"></div>
+      </div>
+      <div class="Score B">
+          <h5>SCORE</h5>
+          <h4>TEAM B</h4>
+          <h3>50</h3>
+      </div>
+    </div>
+    <div class = "center">
+      <div class = "two">
+        <img src="/home/petty22/Documents/GamePlay/images/male.svg" class="left player">
+        <div class = buttons>
+          <h2>Player 2</h2>
+          <button onclick="sortCards(player2);">SORT</button>
+        </div>
+        <div class ="dos"></div>
+      </div>
+      <div class = "table">
+        <img src="/home/petty22/Documents/GamePlay/images/table.jpg" alt="Seep table" id="floor">
+        <div class = "playingArea" id= "callArea" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+
+      <div class = "three">
+        <img src="/home/petty22/Documents/GamePlay/images/female.png" class="right player">
+        <div class = buttons>
+          <h2>Player 3</h2>
+          <button onclick="sortCards(player3);">SORT</button>
+        </div>
+        <div class ="tres"></div>
+      </div>
+    </div>
+    <div class = "four">
+      <img src="/home/petty22/Documents/GamePlay/images/female.png" class="player">
+      <div class = buttons>
+        <h2>Player 4</h2>
+        <button onclick="sortCards(player4);">SORT</button>
+      </div>
+      <div class ="quad"></div>
+    </div>
+  </body>
+</html>

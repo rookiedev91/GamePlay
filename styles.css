@@ -1,0 +1,97 @@
+#floor{
+	height : 300;
+	width  : 600;
+}
+body{
+	background-color: brown;
+}
+#callArea {
+    
+	width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+.table{
+	height : 300;
+	width  : 600;
+	border: 3px solid black;
+	position: relative;
+}
+.desig{
+	display: none;
+}
+.playingArea{
+	display: block;
+	float: left;
+	position: absolute;
+	left : 25%;
+	top: 15%;
+}	
+.un{
+
+}
+.dos{
+	flex-direction: column;
+}
+.tres{
+	flex-direction: column;
+}
+.quad{
+}
+.banner{
+	text-align: center;
+	background-color: cyan;
+}
+.center{
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  align-items: center;
+}
+.Score{
+	border:3px solid block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 0px;
+}
+.one{
+	display: flex;
+	align-items: center;
+}
+.four{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	margin-top: 0px;
+ margin-bottom: 0px;
+}
+h5{
+	margin-top: 0px;
+ margin-bottom: 0px;
+}
+.A{
+	margin-left: 10%;
+}
+.B{
+	margin-right: 10%;
+}
+.first{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.player{
+	height : 70px;
+	width : 70px;
+	padding : 5px;
+}
+.top{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
